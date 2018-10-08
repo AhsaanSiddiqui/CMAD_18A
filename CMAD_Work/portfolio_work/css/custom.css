@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700,700i,800|Roboto:300,400,400i,500,500i,700,900');
+@charset "utf-8";
+/* CSS Document */
+body, html{
+	height: 100%
+}
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, a, ul, li{
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+	text-decoration: none;
+}
+/*Header*/
+section.header_area {
+  position: relative;
+  padding: 0;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  background: rgba(206,179,245,1);
+	background: -moz-linear-gradient(45deg, rgba(206,179,245,1) 0%, rgba(206,179,245,1) 7%, rgba(192,173,219,1) 26%, rgba(167,115,240,1) 48%, rgba(122,59,204,1) 91%, rgba(108,29,211,1) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(206,179,245,1)), color-stop(7%, rgba(206,179,245,1)), color-stop(26%, rgba(192,173,219,1)), color-stop(48%, rgba(167,115,240,1)), color-stop(91%, rgba(122,59,204,1)), color-stop(100%, rgba(108,29,211,1)));
+	background: -webkit-linear-gradient(45deg, rgba(206,179,245,1) 0%, rgba(206,179,245,1) 7%, rgba(192,173,219,1) 26%, rgba(167,115,240,1) 48%, rgba(122,59,204,1) 91%, rgba(108,29,211,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(206,179,245,1) 0%, rgba(206,179,245,1) 7%, rgba(192,173,219,1) 26%, rgba(167,115,240,1) 48%, rgba(122,59,204,1) 91%, rgba(108,29,211,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(206,179,245,1) 0%, rgba(206,179,245,1) 7%, rgba(192,173,219,1) 26%, rgba(167,115,240,1) 48%, rgba(122,59,204,1) 91%, rgba(108,29,211,1) 100%);
+	background: linear-gradient(45deg, rgba(206,179,245,1) 0%, rgba(206,179,245,1) 7%, rgba(192,173,219,1) 26%, rgba(167,115,240,1) 48%, rgba(122,59,204,1) 91%, rgba(108,29,211,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ceb3f5', endColorstr='#6c1dd3', GradientType=1 );
+}
+.details_div {
+	color: #fff;
+}
+.details_div h1 {
+	margin: 0;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 60px;
+}
+.details_div span.myName {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.details_div p {
+	font-size: 18px;
+	margin: 15px 0;
+}
+
+/*End Header*/
+
+
+
+@media only screen and (min-device-width:520px) and (max-device-width:767px) and (orientation:portrait) {}
+@media only screen and (min-device-width:120px) and (max-device-width:750px) and (orientation:landscape) {}
+@media only screen and (min-device-width:751px) and (max-device-width:999px) and (orientation:portrait) {}
+@media only screen and (min-device-width:751px) and (max-device-width:999px) and (orientation:landscape) {}
+@media only screen and (min-device-width:1000px) and (max-device-width:1030px) and (orientation:portrait) {}
+@media only screen and (min-device-width:1000px) and (max-device-width:1030px) and (orientation:landscape) {}
+
+@media only screen and (min-width: 1366px) and (max-width: 1920px){}
+@media only screen and (min-width: 1200px) and (max-width: 1365px){}
+@media only screen and (min-width: 992px) and (max-width: 1199px){}
+@media only screen and (min-width: 768px) and (max-width: 991px){}
+@media only screen and (min-width: 520px) and (max-width: 767px){}
+@media only screen and (min-width: 300px) and (max-width: 519px){}

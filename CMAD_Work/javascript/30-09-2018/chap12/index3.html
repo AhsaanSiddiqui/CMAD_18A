@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <script>
+    var marksInPercentage = prompt("Please enter your marks in percentage");
+    if (marksInPercentage == null) {
+      alert("Invalid value provided");
+    } else {
+      marksInPercentage = parseInt(marksInPercentage);
+      var gradeAssigned = "";
+      if (marksInPercentage >= 80) {
+        gradeAssigned = "A+";
+      }
+      else if (marksInPercentage >= 70) {
+        gradeAssigned = "A";
+      }
+      else if (marksInPercentage >= 60) {
+        gradeAssigned = "B";
+      }
+      else if (marksInPercentage >= 50) {
+        gradeAssigned = "C";
+      }
+      else {
+        gradeAssigned = "Bhai tu rehnay de..!";
+      }
+
+      alert(gradeAssigned);
+
+    }
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
